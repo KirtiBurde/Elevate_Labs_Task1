@@ -7,3 +7,4 @@ Here are some changes I made to transform the fleet dataset.
 4. Removing some characters like ($ and ,) from the cost columns.
 5. Checking the null values and replacing numeric values by their mean and drop the null values from the columns having less than 5% null values.
 6. Chnging the of cost columns from object to int.
+7. Dropping the duplicates values by df.drop_duplicates().
